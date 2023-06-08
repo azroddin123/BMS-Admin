@@ -1,0 +1,21 @@
+.heroSection {
+    border-radius: 1rem !important;
+    overflow: hidden;
+    display: flex;
+    padding: 0 !important;
+    margin-bottom: 3rem;
+    & > *:nth-child(1) {
+        flex: 1.5;
+        background-color: black;
+        // background-image: url('/images/hero.png');
+    }
+    & > *:nth-child(2) {
+        // padding-inline: 4rem;
+        flex: 1;
+background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: white;
+    }
+}
